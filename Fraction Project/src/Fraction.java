@@ -7,7 +7,7 @@ public class Fraction {
 		this.numerator = numerator;
 		this.denominator = denominator;
 		if (this.denominator == 0) {
-			System.out.println("Illegal value for denominator!");
+			System.out.println("Illegal value for denominator");
 		}
 		if (this.denominator < 0){
 			this.numerator = numerator * -1;
